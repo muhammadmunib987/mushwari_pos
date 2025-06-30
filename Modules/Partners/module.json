@@ -1,0 +1,16 @@
+{
+    "name": "Partners",
+    "alias": "partners",
+    "description": "Partners and Shares Management Module for UltimatePOS",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Partners\\Providers\\PartnersServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "Helpers/general_helper.php"
+    ],
+    "requires": []
+}

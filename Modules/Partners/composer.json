@@ -1,0 +1,25 @@
+{
+    "name": "pnn/partners",
+    "description": "",
+    "authors": [
+        {
+            "name": "PNN Solutions",
+            "email": "mail.pnnsolutions@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Partners\\Providers\\PartnersServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Partners\\": ""
+        }
+    }
+}
